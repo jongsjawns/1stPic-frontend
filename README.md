@@ -15,6 +15,6 @@ cd 1stPic-frontend
 
 npm install
 
-running gulp in the command line will compile the project and start a server to watch changes and automatically refresh
+typing gulp in the command line will compile the project and start a server to watch changes and automatically refresh
 
 see gulpfile.js for additional gulp tasks

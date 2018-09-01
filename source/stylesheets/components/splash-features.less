@@ -1,0 +1,35 @@
+@import '../base/variables.less';
+
+.features {
+  background: #f9f9f9;
+  text-align: center;
+  position: relative;
+  height: 500px;
+  @media only screen and (max-width: 680px) {
+    height: auto;
+  }
+
+  h2 {
+    margin: 80px 0;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px;
+  @media only screen and (max-width: 680px) {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+.feature-card {
+  background: white;
+  border-top: 4px solid @gold;
+  padding: 30px 40px 10px 40px;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+
+  h3 {
+    margin: 10px 0 0;
+  }
+}

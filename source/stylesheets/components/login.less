@@ -1,0 +1,66 @@
+@import '../base/variables.less';
+
+.login {
+  background: @light-gray;
+}
+
+.login-grid h3 {
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  color: rgb(82, 85, 88);
+}
+
+.login-grid {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(253, 253, 253);
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0.8em;
+  border: solid 1px @gray;
+  width: 100%;
+  max-width: 25em;
+}
+
+.login-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-grid form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.login-grid input {
+  width: 100%;
+  margin: 0.5em 0;
+  font-size: 1em;
+  height: 2.2em;
+  padding: 0.2em 0;
+  box-sizing: border-box;
+  outline: none;
+  color: @gray;
+  border: 1px @gray solid;
+}
+
+.submit-button {
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  color: @white;
+  border: none;
+  height: 2.5em;
+  padding: 0.5em;
+  margin-top: 2em;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  background-color: @seafoam;
+}
